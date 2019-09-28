@@ -33,5 +33,4 @@ public class CalculaSalarioComDescontoDeINSS{
 							"\nDesconto de " + (int)(descINSS*100) + "%: " + (salBruto*descINSS) +
 							"\nSalário Líquido: " + salLiquido);
 	}
-
 }
