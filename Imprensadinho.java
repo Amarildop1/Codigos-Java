@@ -1,11 +1,11 @@
 import java.util.Scanner;
-
-public class Imprensadinho{
 	/**
 	 * @Author Amarildo
 	 * Imprensadinho - Adivinhe o número!
 	 * Gera um número entre 1 e 100.
 	 */
+public class Imprensadinho{
+
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
@@ -26,5 +26,5 @@ public class Imprensadinho{
 			}
 		}while(tentativa != numeroAleatorio);
 		
-	} //Fim do main	
-} //Fim da class
+	}
+}
