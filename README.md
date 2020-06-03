@@ -1,2 +1,2 @@
 ## Java
-Códigos escritos em Java
+Exercícios escritos em Java.
