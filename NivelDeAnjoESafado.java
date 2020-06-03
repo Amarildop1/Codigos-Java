@@ -5,11 +5,11 @@ public class NivelDeAnjoESafado{
         Scanner entrada = new Scanner(System.in);
         int dia=0, mes=0, ano=0, safadeza = 0, anjo = 0;
 
-        System.out.println("\nInforme o dia do seu nascimento: ");
+        System.out.print("\nInforme o dia do seu nascimento: ");
         dia = entrada.nextInt();
-        System.out.println("Informe o mês (Ex.: 1 até 12): ");
+        System.out.print("Informe o mês (Ex.: 1 até 12): ");
         mes = entrada.nextInt();
-        System.out.println("Informe o ano: ");
+        System.out.print("Informe o ano: ");
         ano = entrada.nextInt();
 
         safadeza = ((mes) + (ano/100) * (50 - dia))/10;
